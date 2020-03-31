@@ -1,0 +1,63 @@
+html,
+body {
+  position: relative;
+  height: 97%;
+}
+
+#open-btn {
+  cursor: pointer;
+  position: sticky;
+  top: 90%;
+  color: blue;
+}
+
+#chatbot {
+  height: 100%;
+  margin-left: 10%;
+  display: inline-block;
+  position: relative;
+}
+
+#input-box {
+  position: absolute;
+  bottom: 10%;
+  left: 24%;
+}
+
+#msg-input {
+  width: 60%;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#msg-box {
+  position: absolute;
+  left: 13%;
+  top: 2%;
+  background-color: bisque;
+  height: 80%;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.me-msg {
+  text-align: right;
+}
+
+.bot-msg {
+  background-color: whitesmoke;
+  width: max-content;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.me-msg div {
+  width: max-content;
+  padding: 5px;
+  background-color: whitesmoke;
+  margin: 8px;
+  border-radius: 10px;
+  max-width: 75%;
+}
